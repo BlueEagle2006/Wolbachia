@@ -3,7 +3,7 @@ import xlsxwriter,math
 xlsnum=0
 workbook = xlsxwriter.Workbook('Wolbachia.xlsx')
 worksheet = workbook.add_worksheet()
-alar=[.5,.2,.46,.78]
+alar=[.2,.5,.8,1,0,1,0]
 '''i=0
 while i<=1:
     alar.append(float(i))
